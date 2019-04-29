@@ -22750,8 +22750,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.plugins_.Function.prototype.cnds.OnFunction,
 	cr.system_object.prototype.cnds.Every,
-	cr.system_object.prototype.exps.windowwidth,
+	cr.plugins_.Browser.prototype.exps.WindowOuterWidth,
 	cr.system_object.prototype.exps.newline,
-	cr.system_object.prototype.exps.windowheight
+	cr.plugins_.Browser.prototype.exps.WindowOuterHeight
 ];};
 
