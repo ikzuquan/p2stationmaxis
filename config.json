@@ -1,0 +1,39 @@
+﻿{
+	"id": "com.mycompany.P2StationGame",
+	"version": "1.0.0.0",
+	"name": "P2 Station Game",
+	"description": "P2 Station Game",
+	"author": "Sevenactiv Sdn Bhd",
+	"email": "ask@sevenactiv.com.my",
+	"website": "http://sevenactiv.com.my",
+	"fullscreen": "false",
+	"useragent": null,
+	"orientation": "default",
+	"icons": [{
+		"src": "www/icon-256.png",
+		"width": 256,
+		"height": 256,
+		"density": "xxxhdpi"
+	}, {
+		"src": "www/icon-128.png",
+		"width": 128,
+		"height": 128,
+		"density": "xhdpi"
+	}],
+	"plugins": [
+		{ "id": "cordova-plugin-file", "version": null },
+		{ "id": "cordova-plugin-inappbrowser", "version": null },
+		{ "id": "cordova-plugin-whitelist", "version": null },
+		{ "id": "cordova-plugin-wkwebview-engine", "version": null },
+		{ "id": "https://github.com/cranberrygame/cordova-plugin-powermanagement", "version": null }
+	],
+	"android": {
+		"min": 22,
+		"target": 26,
+		"plugins": []
+	},
+	"ios": {
+		"target": "10.0",
+		"plugins": []
+	}
+}
