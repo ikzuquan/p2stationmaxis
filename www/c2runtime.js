@@ -22748,6 +22748,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch.prototype.cnds.OnDoubleTapGestureObject,
 	cr.behaviors.lunarray_LiteTween.prototype.cnds.OnEnd,
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
-	cr.plugins_.Function.prototype.cnds.OnFunction
+	cr.plugins_.Function.prototype.cnds.OnFunction,
+	cr.system_object.prototype.cnds.Every,
+	cr.system_object.prototype.exps.windowwidth,
+	cr.system_object.prototype.exps.newline,
+	cr.system_object.prototype.exps.windowheight
 ];};
 
