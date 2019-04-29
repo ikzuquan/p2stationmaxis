@@ -11,16 +11,22 @@
 	<preference name="phonegap-version" value="cli-7.0.1" />
 
 	<preference name="orientation" value="default" />
-	<preference name="fullscreen" value="false" />
+	<preference name="fullscreen" value="true" />
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="AllowInlineMediaPlayback" value="true" />
+
+	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
+	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
+
 
 	<preference name="deployment-target" value="10.0" />
 	<preference name="android-minSdkVersion" value="22" />
 	<access origin="*" />
 
+	<plugin name="cordova-custom-config" />
 	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
 	<plugin name="https://github.com/cranberrygame/cordova-plugin-powermanagement" />

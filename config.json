@@ -6,7 +6,7 @@
 	"author": "Sevenactiv Sdn Bhd",
 	"email": "ask@sevenactiv.com.my",
 	"website": "http://sevenactiv.com.my",
-	"fullscreen": "false",
+	"fullscreen": "true",
 	"useragent": null,
 	"orientation": "default",
 	"icons": [{
@@ -21,8 +21,10 @@
 		"density": "xhdpi"
 	}],
 	"plugins": [
+		{ "id": "cordova-custom-config", "version": null },
 		{ "id": "cordova-plugin-file", "version": null },
 		{ "id": "cordova-plugin-inappbrowser", "version": null },
+		{ "id": "cordova-plugin-statusbar", "version": null },
 		{ "id": "cordova-plugin-whitelist", "version": null },
 		{ "id": "cordova-plugin-wkwebview-engine", "version": null },
 		{ "id": "https://github.com/cranberrygame/cordova-plugin-powermanagement", "version": null }
